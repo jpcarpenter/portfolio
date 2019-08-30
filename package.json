@@ -9,12 +9,13 @@
   },
   "dependencies": {
     "array.prototype.find": "^2.1.0",
+    "axios": "^0.18.0",
     "es6-promise": "^4.2.8",
     "postcss-import": "^12.0.0",
+    "qs": "^6.7.0",
+    "vh-check": "^2.0.5",
     "vue": "^2.6.0",
-    "vue-style-loader": "^4.1.2",
-    "axios": "^0.18.0",
-    "qs": "^6.7.0"
+    "vue-style-loader": "^4.1.2"
   },
   "devDependencies": {
     "@vue/cli-service": "^3.8.0",
