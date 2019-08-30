@@ -1,0 +1,66 @@
+{
+  "name": "jacobpaulcarpenter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "array.prototype.find": "^2.1.0",
+    "es6-promise": "^4.2.8",
+    "postcss-import": "^12.0.0",
+    "vue": "^2.6.0",
+    "vue-style-loader": "^4.1.2",
+    "axios": "^0.18.0",
+    "qs": "^6.7.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.8.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "filemanager-webpack-plugin": "^2.0.5",
+    "@vue/devtools": "^5.1.0",
+    "glob-all": "^3.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.12.0",
+    "purgecss-webpack-plugin": "^1.2.0",
+    "purgecss-whitelister": "^2.1.0",
+    "sane": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "tailwindcss": "^1.0.1",
+    "vue-template-compiler": "^2.6.0",
+    "webpack-manifest-plugin": "^2.0.4",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "@fullhuman/postcss-purgecss": "^1.1.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-import": {},
+      "tailwindcss": "./tailwind.config.js",
+      "autoprefixer": {}
+    }
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
