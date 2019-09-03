@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import vhCheck from 'vh-check'
-// import AccordionItem from './components/AccordionItem.vue'
-// import MainNav from './components/MainNav.vue'
+import particles from "./components/particles";
 
 Vue.config.productionTip = false
 
@@ -10,6 +9,9 @@ import "./styles.css";
 const app = () => {
   new Vue({
     el: "#app",
+    components: {
+      particles
+    },
     mounted() {
       vhCheck();
     }
