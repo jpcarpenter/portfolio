@@ -1,6 +1,14 @@
 import Vue from 'vue'
 import vhCheck from 'vh-check'
 import particles from "./components/particles";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+// Init and add fontawesome icons
+library.add(faTwitter, faFacebookF, faInstagram, faEnvelope)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
