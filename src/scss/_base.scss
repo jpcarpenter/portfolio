@@ -1,11 +1,5 @@
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-
 html {
-    font-family: 'Montserrat', sans-serif;
+    @apply font-sans;
 }
 .h-screen-fix {
     height: 100vh;
