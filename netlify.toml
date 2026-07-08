@@ -1,0 +1,10 @@
+[build]
+  command = "npm run generate"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Force Nitro's static preset so `nuxt generate` always outputs to
+  # .output/public. Without this, Netlify auto-detection switches to the
+  # server "netlify" preset and .output/public never gets created.
+  NITRO_PRESET = "static"
