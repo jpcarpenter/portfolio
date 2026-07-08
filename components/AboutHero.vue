@@ -67,9 +67,8 @@ onMounted(() => {
             >.
           </p>
           <p>
-            My focus is building polished, scalable web apps — <span class="highlight">Vue 3</span> +
-            <span class="highlight">Nuxt</span> front ends, and design systems that hold up over
-            time.
+            These days I'm focused on crafting polished, scalable web apps with
+            <span class="highlight">Vue 3</span> &amp; <span class="highlight">Nuxt</span>, backed by design systems that get noticed and stand the test of time.
           </p>
           <p>
             Outside of work, I'm usually playing music, hanging with my family, or out on the
