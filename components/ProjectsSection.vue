@@ -12,7 +12,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: 'IATSE 478',
-    tag: 'Website + Member Portal',
+    tag: 'Website Design & Development',
     description:
       'Assisted in development and designed the frontend for the member portal, so union members can handle availability reporting, permits, training, and contracts on any device.',
     url: 'https://rockitscienceagency.com/work/iatse-478',
@@ -20,7 +20,7 @@ const projects: Project[] = [
   },
   {
     title: 'DIG Baton Rouge',
-    tag: 'Website + Partner Portal',
+    tag: 'Website Design & Development',
     description:
       'Designed the frontend and built the Partner Portal where local businesses create listings, run events, and buy advertising — the hub of DIG’s digital ecosystem.',
     url: 'https://rockitscienceagency.com/work/digbr',
@@ -35,19 +35,19 @@ const projects: Project[] = [
     category: 'Agency',
   },
   {
-    title: 'Cypress Physical Therapy',
-    tag: 'Website Design & Development',
-    description:
-      'Redesigned the site around a modern, scalable structure with an integrated Google Maps location finder, clear appointment CTAs, and multimedia content to support their multi-location growth.',
-    url: 'https://cypresspt.net/',
-    category: 'Freelance',
-  },
-  {
     title: 'Volunteer Ascension',
     tag: 'Website Design & Development',
     description:
       'Built a story-driven redesign that showcases volunteer opportunities and community impact through video and narrative, with clear paths to donate, join events, and fundraise.',
     url: 'https://volunteerascension.org/',
+    category: 'Freelance',
+  },
+  {
+    title: 'Cypress Physical Therapy',
+    tag: 'Website Design',
+    description:
+      'Redesigned the site around a modern, scalable structure with an integrated Google Maps location finder, clear appointment CTAs, and multimedia content to support their multi-location growth.',
+    url: 'https://cypresspt.net/',
     category: 'Freelance',
   },
 ]
