@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-sand text-ink font-sans;
+  }
+}
+
+@layer components {
+  /* Marker-style highlight behind text */
+  .highlight {
+    background-image: linear-gradient(
+      180deg,
+      transparent 60%,
+      theme('colors.highlight') 60%,
+      theme('colors.highlight') 92%,
+      transparent 92%
+    );
+    padding: 0 0.08em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  .nav-link {
+    @apply text-sm text-muted transition-colors duration-200 hover:text-ink;
+  }
+
+  .nav-link--active {
+    @apply text-ink font-semibold;
+  }
+
+  .link-underline {
+    @apply relative inline-block text-ink;
+    background-image: linear-gradient(theme('colors.accent'), theme('colors.accent'));
+    background-size: 0% 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.25s ease;
+  }
+
+  .link-underline:hover {
+    background-size: 100% 2px;
+  }
+}
